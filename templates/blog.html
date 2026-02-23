@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog | Meghali Dutta</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f9;
+        }
+
+        /* Navbar */
+        nav {
+            background: #1e1e2f;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #00adb5, #393e46);
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        /* Blog Cards */
+        .blog-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 60px 20px;
+        }
+
+        .card {
+            background: white;
+            width: 320px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .card-content p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e2f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/homepage">Home</a>
+    <a href="/aboutpage">About</a>
+    <a href="/contactpage">Contact</a>
+    <a href="/blogpage">Blog</a>
+</nav>
+
+<div class="header">
+    <h1>My Blog</h1>
+    <p>Insights on Technology, Design & Learning</p>
+</div>
+
+<div class="blog-container">
+
+    <div class="card">
+        <img src="https://newo.ai/wp-content/uploads/2024/11/1-AI-in-2025-Emerging-Trends-Shaping-the-Future-of-Artificial-Intelligence.jpg" alt="Tech">
+        <div class="card-content">
+            <h3>Future of Artificial Intelligence</h3>
+            <p>Exploring how AI is transforming industries and shaping the future world.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.zYS7YDLrsJFyn1QpmI5cnwHaD4?pid=Api&P=0&h=180" alt="Coding">
+        <div class="card-content">
+            <h3>Journey into Web Development</h3>
+            <p>From basic HTML to building full Flask applications — my learning experience.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.UOfYz9TIJr4e4miTxEakAwHaEy?pid=Api&P=0&h=180" alt="Design">
+        <div class="card-content">
+            <h3>Elegant UI Design Principles</h3>
+            <p>Understanding colors, spacing and typography to build premium interfaces.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    Designed by Meghali Dutta © 2026
+</footer>
+
+</body>
+</html>

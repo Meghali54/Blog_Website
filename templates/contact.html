@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact | Meghali Dutta</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+        }
+
+        nav {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 20px;
+        }
+
+        .form-box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            width: 400px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .form-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #5a67d8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/homepage">Home</a>
+    <a href="/aboutpage">About</a>
+    <a href="/contactpage">Contact</a>
+    <a href="/blogpage">Blog</a>
+</nav>
+
+<div class="contact-container">
+    <div class="form-box">
+        <h2>Contact Me</h2>
+        <form method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    Designed by Meghali Dutta © 2026
+</footer
